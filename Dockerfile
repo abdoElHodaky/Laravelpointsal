@@ -24,4 +24,5 @@ RUN npm install && composer install
 RUN php artisan db:wipe --drop-types --force && php artisan migrate:install
 RUN php artisan migrate --force
 RUN php artisan db:seed --force
+RUN npx vite build
 EXPOSE 80 80
