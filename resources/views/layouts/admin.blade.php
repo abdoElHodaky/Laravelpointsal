@@ -10,7 +10,7 @@
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <title>@yield('title')</title>
       <!-- Font Awesome Icons -->
-      <link rel="stylesheet" href="{{assets('admin/plugins/fontawesome-free/css/all.min.css')}}">
+      <link rel="stylesheet" href="{{assets('admin/plugins/fontawesome-free/css/all.min.css')}}}">
       <!-- Theme style -->
       <link rel="stylesheet" href="{{assets('admin/dist/css/adminlte.min.css')}}">
       <!-- Google Font: Source Sans Pro -->
