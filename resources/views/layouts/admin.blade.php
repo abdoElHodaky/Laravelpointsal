@@ -17,7 +17,7 @@
       <link rel="stylesheet" href="{{assets('admin/fonts/SansPro/SansPro.min.css')}}">
       <link rel="stylesheet" href="{{assets('admin/css/bootstrap_rtl-v4.2.1/bootstrap.min.css')}}">
       <link rel="stylesheet" href="{{assets('admin/css/bootstrap_rtl-v4.2.1/custom_rtl.css')}}">
-      <link rel="stylesheet" href="{{assets('admin/css/mycustomstyle.css'}}">
+      <link rel="stylesheet" href="{{assets('admin/css/mycustomstyle.css')}}">
       @yield('css')
    </head>
    <body class="hold-transition sidebar-mini">
@@ -43,7 +43,7 @@
       <script src="{{assets('admin/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
       <!-- AdminLTE App -->
       <script src="{{assets('admin/dist/js/adminlte.min.js')}}"></script>
-      <script src="assets('admin/js/general.js')}}"></script>
+      <script src="{{assets('admin/js/general.js')}}"></script>
       @yield('script')
    </body>
 </html>
